@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('uiCropper').directive('uiCropper', ['$timeout', 'cropHost', 'cropPubSub', function ($timeout, CropHost, CropPubSub) {
+angular.module('uiCropper', []).directive('uiCropper', ['$timeout', 'cropHost', 'cropPubSub', function ($timeout, CropHost, CropPubSub) {
     return {
         restrict: 'E',
         scope: {
